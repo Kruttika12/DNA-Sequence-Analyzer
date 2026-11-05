@@ -88,13 +88,6 @@ The program generates two CSV files:
 | `sequence_comparison.csv` | Contains sequence IDs, lengths, nucleotide counts, GC content, and AT content for all sequences. |
 | `orf_results.csv` | Contains detected ORF information, including strand, reading frame, start and end positions, length, and nucleotide sequence. |
 
-## Limitations
-
-- Supports DNA sequences containing A, T, G, C, and N.
-- ORF detection uses ATG as the start codon and TAA, TAG, and TGA as stop codons.
-- ORF detection does not establish biological gene functionality.
-- Analysis is performed on one selected sequence at a time, while sequence comparison covers all sequences in the input FASTA file.
-
 ## Author
 
 Kruttika R
